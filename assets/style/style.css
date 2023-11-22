@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+.title-text {
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: -1.5px;
+  font-weight: bold;
+}
+
+.title-text .title-text-color {
+  color: #3c9379;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  font-weight: 500;
+}
+
+.btn-login {
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  color: #101913;
+}
+
+.btn-register {
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  color: white;
+  background-color: #3c9379;
+  padding: 12px 18px;
+}
+
+.btn-register:hover {
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  color: white;
+  background-color: #3c9379;
+  padding: 12px 18px;
+}
+
+/* Section Style */
+.hero-section{
+  margin-top: 100px;
+}
+
+.hero-section .text-heading{
+  font-size: 54px;
+  line-height: 70px;
+  letter-spacing: 0.5px;
+  margin-bottom: 32px;
+  font-weight: bold;
+}
+
+.hero-section .text-heading .text-heading-color{
+  color: #3c9379;
+}
+
+.hero-section .text-description{
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  color: #535A56;
+  width: 90%;
+  margin-bottom: 32px;
+}
+
+.hero-section .cta-shopping{
+  background-color: #3c9379;
+  color: white;
+  padding: 16px 22px;
+}
+
+.hero-section .hero-image{
+  width: 601px;
+  height: 524px;
+}
